@@ -7,6 +7,7 @@ import { PipesModule } from './componets/pipes/pipes.module';
 @NgModule({
   declarations: [
     AppComponent,
+
  
   ],
   imports: [

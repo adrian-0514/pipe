@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./pipes-agular.component.css']
 })
 export class PipesAgularComponent {
+  
+
 
 }
