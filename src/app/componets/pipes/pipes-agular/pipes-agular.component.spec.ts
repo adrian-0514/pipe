@@ -10,6 +10,7 @@ describe('PipesAgularComponent', () => {
     TestBed.configureTestingModule({
       declarations: [PipesAgularComponent]
     });
+    
     fixture = TestBed.createComponent(PipesAgularComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

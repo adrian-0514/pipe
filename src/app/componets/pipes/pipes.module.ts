@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PipesAgularComponent } from './pipes-agular/pipes-agular.component';
 import { TextoComponent } from './texto/texto.component';
 import { NumeroComponent } from './numero/numero.component';
+import { FechaComponent } from './fecha/fecha.component';
 
 
 
@@ -10,7 +11,8 @@ import { NumeroComponent } from './numero/numero.component';
   declarations: [
     PipesAgularComponent,
     TextoComponent,
-    NumeroComponent
+    NumeroComponent,
+    FechaComponent
   ],
   imports: [
     CommonModule
