@@ -9,6 +9,7 @@ export class FechaComponent implements OnInit {
 
   public fecha: string = '030422';
 
+  public hoy:number = Date.now();
   constructor() { }
 
   ngOnInit(): void {
