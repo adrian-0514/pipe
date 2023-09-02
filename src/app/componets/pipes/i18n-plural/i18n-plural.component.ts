@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class I18nPluralComponent {
 
   public contador=0;
-  public contado=0;
+
   public map={
     '=0': 'no tiene valor',
     '=1': 'el valor es de (#)',
@@ -20,7 +20,7 @@ export class I18nPluralComponent {
     this.contador++;
   }
   disminuir(){
-
+    this.contador--
   }
 
 }
