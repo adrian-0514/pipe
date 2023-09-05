@@ -10,6 +10,8 @@ import { SliceComponent } from './slice/slice.component';
 import { I18nselectComponent } from './i18nselect/i18nselect.component';
 import { FormsModule } from '@angular/forms';
 import { I18nPluralComponent } from './i18n-plural/i18n-plural.component';
+import { AsyncComponent } from './async/async.component';
+import { PipecolorComponent } from './pipecolor/pipecolor.component';
 
 
 
@@ -23,7 +25,9 @@ import { I18nPluralComponent } from './i18n-plural/i18n-plural.component';
     KeyvalueComponent,
     SliceComponent,
     I18nselectComponent,
-    I18nPluralComponent
+    I18nPluralComponent,
+    AsyncComponent,
+    PipecolorComponent
   ],
   imports: [
     CommonModule,
